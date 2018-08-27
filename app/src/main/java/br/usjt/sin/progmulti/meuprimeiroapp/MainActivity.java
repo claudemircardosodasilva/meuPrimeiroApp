@@ -10,13 +10,14 @@ public class MainActivity extends Activity {
     private EditText editText;
     public static final String MENSAGEM = "br.usjt.sin.progmulti.meuprimeiroapp.texto";
 
+    //claudemir cardoso RA 816155452
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         editText = findViewById(R.id.edit_text);
     }
-
+    //claudemir cardoso RA 816155452
     public void enviarMensagem(View view) {
         Intent intent = new Intent(this,DisplayMessageActivity.class);
         String texto = editText.getText().toString();

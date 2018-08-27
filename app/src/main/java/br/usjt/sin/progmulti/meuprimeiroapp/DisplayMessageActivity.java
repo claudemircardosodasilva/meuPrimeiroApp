@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 public class DisplayMessageActivity extends Activity {
 
+    //claudemir cardoso RA 816155452
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
